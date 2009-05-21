@@ -18,8 +18,12 @@ class webcamWidgetBehaviors
 			'www.example.com/webcam','text');
  
 		$w->WebcamWidget->setting('freq',__('Update frequency (seconds):'),
-			'0.5', 'textarea');
-
+			'0.5', 'text');
+		
+		$w->WebcamWidget->setting('source',__('Larger view url:'),
+			'www.example.com/webcam', 'text');
+		$w->WebcamWidget->setting('homeonly',__('Home page only'),
+			1, 'check');
 	}
 }
 ?>
