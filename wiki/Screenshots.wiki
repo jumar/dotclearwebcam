@@ -1,0 +1,27 @@
+Dans le screenshot suivant le widget apparait tout en haut à droite:
+
+
+http://www.voirailleurs.info/blog/public/Divers/dc-webcam.png
+Le lien "Agrandir" a été configuré pour ouvrir une page contenant le code suivant:
+
+{{{
+///html
+<div id="cam">
+	<img id="camImage" src="http://www.example.com/webcamImage" alt="Message descriptif" width="640" height="480"/>
+	</div>
+
+	<script type="text/javascript">
+		setInterval ( "getPic();", 500 );
+		function getPic()
+		{
+			document.getElementById("camImage").src = "http://www.example.com/webcamImage?" + Math.random();
+		}
+	</script>
+///
+}}}
+
+http://www.voirailleurs.info/blog/public/Divers/dc-webcam3.png
+
+Ce qui donne le resultat suivant:
+
+http://www.voirailleurs.info/blog/public/Divers/dc-webcam2.png
