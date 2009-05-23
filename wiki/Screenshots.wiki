@@ -2,7 +2,7 @@ Dans le screenshot suivant le widget apparait tout en haut à droite:
 
 
 http://www.voirailleurs.info/blog/public/Divers/dc-webcam.png
-Le lien "Agrandir" a été configuré pour ouvrir une page contenant le code suivant:
+Le lien "Agrandir" a été configuré pour ouvrir une page affichant l'iumage de la webcam en grand format avec un delai de rafraichissement donné. Le code de la page est le suivant :
 
 {{{
 ///html
@@ -11,7 +11,7 @@ Le lien "Agrandir" a été configuré pour ouvrir une page contenant le code sui
 	</div>
 
 	<script type="text/javascript">
-		setInterval ( "getPic();", 500 );
+		setInterval ( "getPic();", 500 ); // 500 pour un raffraichissement toutes les 500ms
 		function getPic()
 		{
 			document.getElementById("camImage").src = "http://www.example.com/webcamImage?" + Math.random();
