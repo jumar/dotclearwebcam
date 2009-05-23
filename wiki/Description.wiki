@@ -30,3 +30,8 @@ Ce qui donne le resultat suivant:
 
 
 http://www.voirailleurs.info/blog/public/Divers/dc-webcam2.png
+
+
+Dans la vue d'admin, on peut configurer l'url de la camera, la frequence de rafraichissement ansi que le lien à ouvrir lorsque l'on clique sur "Agrandir".
+
+http://www.voirailleurs.info/blog/public/Divers/dc-webcam4.png
