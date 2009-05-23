@@ -2,7 +2,7 @@ Dans le screenshot suivant le widget apparait tout en haut à droite:
 
 
 http://www.voirailleurs.info/blog/public/Divers/dc-webcam.png
-Le lien "Agrandir" a été configuré pour ouvrir une page affichant l'iumage de la webcam en grand format avec un delai de rafraichissement donné. Le code de la page est le suivant :
+Le lien "Agrandir" a été configuré pour ouvrir une page affichant l'iumage de la webcam en grand format avec un delai de rafraichissement donné. Le code de la page est le suivant : (remplacez "http://www.example.com/webcamImage", par l'URL de la camera)
 
 {{{
 ///html
