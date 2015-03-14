@@ -1,0 +1,1 @@
+A simple dotclear 2 widget to display a webcam image
